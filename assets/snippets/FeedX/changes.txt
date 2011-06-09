@@ -1,0 +1,45 @@
+2007/03/02 - 0.0.2
+------------------
+FIXED:   Problem when calling chunks
+ADDED:   New configuration for replacing semicolons (resolves PHx conflict)
+ADDED:   Incremetnal integer added to placeholder value for identically 
+         named tags within the same document depth
+UPDATED: The default cache directory is now in a sub-folder 
+         (modx_base/assets/cache/feedx/) and is automatically created (if possible)
+
+2007/03/04 - 0.0.3
+------------------
+ADDED:   New configuration parameters: &maxElements, &startElements, 
+         &sortElements, &oddElements, &evenElements, &firstElement, &lastElement
+UPDATED: Max/start (offset/limit) within template calls is now in the opposite order:
+         ELEMENT(max,limit) rather than
+         ELEMENT(limit,max)
+
+2007/03/06 - 0.0.4
+------------------
+FIXED: HTML entities now returned properly
+
+2007/03/06 - 0.0.5
+------------------
+ADDED: New configuration parameter, &convEntities, to control the decoding of HTML entities
+FIXED: Sort now works with attributes as well as values
+UPDATED: Optimized chunk placeholder cleanup
+
+2007/03/09 - 0.1.0
+------------------
+UPDATED: Changed directory structure for assets/snippets/feedx directory
+UPDATED: &tplBuilder now called &debug, integrated adaptation of Ditto2 debug system
+ADDED: Language file for debug and system errors
+UPDATED: Changed &tplPreset parameter to &preset
+UPDATED: Improved error reporting, writing to the system event log during non-fatal errors
+
+2007/03/12 - 0.1.1
+------------------
+ADDED: New parameter, &userPh, added to allow for the setting of custom placeholders
+       which can be used globally for aid in templating
+UPDATED: Switched from md5 to crc32 hashing for small speed increase
+
+2007/04/08 - 0.1.2
+------------------
+ADDED: New parameter, &filterElements, which allows certain elements to either be
+	excluded or included

@@ -1,0 +1,353 @@
+/* 
+	Theme Name: Dropshadow 2-Column
+	Theme URL: http://www.briangardner.com/themes/dropshadow-wordpress-theme.htm
+	Description: Dropshadow is a modern, 2-column Widget-ready theme created for Wordpress.
+	Author: Brian Gardner
+	Author URI: http://www.briangardner.com
+	Version: 1.0
+		
+	The CSS, XHTML and design is released under GPL:
+	http://www.opensource.org/licenses/gpl-license.php
+	
+	Changelog:
+		v1.0 - 05.17.07
+		First Release of Dropshadow 2-Column
+*/
+
+body {
+	color: #333333;
+ 	font-size:75%;
+	font-family: Verdana, Helvetica, Sans-Serif;
+	margin: 0px auto 0px;
+	padding: 0px;
+}
+	
+#wrap {
+	background:url(/assets/templates/mtzion-family/img/top-bg.png) repeat-x;
+	
+}	
+
+#wrap-bg {
+	background: url(/assets/templates/mtzion-family/img/top_layer.jpg) top center no-repeat;
+
+}
+
+/************************************************
+*	Header  									*
+************************************************/
+
+#header {
+	width: 800px;
+	height: 80px;
+	margin: 0px auto 0px;
+	padding: 0px;
+	overflow: hidden;
+}
+	
+#headertext {
+	width: 167px;
+	height:68px; 	
+	color: #FFFFFF;
+	float: left;
+	margin: 0px;
+	padding: 0px 0px 0px 0px;
+	position: relative;
+}
+	
+#headertext h1 {
+	margin: 0;
+	padding: 0;
+}
+
+#headertext h1 a, #headertext h1 a:visited {
+	padding: 0px;
+	margin: 0px 0px 15px 0px;
+	border: none;
+}
+
+#headertext h1 a:hover {
+	color: yellow;
+	text-decoration: none;
+}
+
+#headertext h1 a span {
+	background:url(/assets/templates/mtzion-family/img/header.png) no-repeat;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+#headertext p  {
+	position: relative;
+	padding: 5px 0px 5px 0;
+	margin: 0;
+}
+
+#headernavigation {
+	width: 520px;
+	float: right;
+	text-align: right;
+	margin: 0px;
+	padding: 50px 0px 0px 0px;
+}
+	
+#headernavigation li {
+	display: inline;
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+		
+#headernavigation ul {
+	margin: 0px;
+	padding: 5px 10px 5px 10px;
+}
+		
+#headernavigation a, #headernavigation a:visited {
+	color: #FFFFFF;
+	font-weight: bold;
+	margin: 0px;
+	padding: 5px 10px 5px 10px;
+	text-decoration: none;
+	border: none;
+}
+		
+#headernavigation a:hover {
+	background: #5C2975;
+	text-decoration: none;
+}
+	
+
+
+/************************************************
+*	Left Sidebar					     	    * 
+************************************************/
+	
+#l_sidebar {
+	float: left;
+	width: 150px;
+	margin: 0px;
+	padding: 0px;
+	color: white;
+}	
+	
+#l_sidebar h3 {
+	background: #9844C1;
+	color: #FFFFFF;
+	font-weight: bold;
+	padding: 10px 0px 10px 10px;
+	margin: 0px 0px 0px 0px;
+	text-transform: uppercase;
+}
+	
+#l_sidebar h4  {
+	background: #9844C1;
+	color: #FFFFFF;
+	font-weight: bold;
+	padding: 10px 0px 10px 10px;
+	margin: 0px 0px 0px 0px;
+	text-transform: uppercase;
+	border: none;
+}
+
+#l_sidebar a {
+	border-bottom: none;
+	font-weight: normal;
+}
+
+#l_sidebar ul {
+	list-style: none;
+	margin: 0px 0px 5px 0px;
+	padding: 0px;
+}
+
+#l_sidebar ul li {
+	display: inline;
+	padding: 0px;
+	margin: 0px;
+}
+	
+#l_sidebar ul li a {
+	background: #9844C1;
+	display: block;
+	color: #FFFFFF;
+	text-decoration: none;
+	margin: 0px;
+	padding: 5px 10px 5px 10px;
+	border-top: 1px solid #C0C0C0;
+}
+
+#l_sidebar ul li a:hover {
+	background: #9E9BCC;
+	color: #FFFFFF;
+}
+
+#l_sidebar ul ul ul,
+	#l_sidebar ul ul { margin: 0px;}
+
+#l_sidebar ul ul ul li { margin: 0 0 1px 0; }
+
+#l_sidebar ul ul ul a {
+	display: block;
+	padding: 5px 5px 5px 30px;
+	color: #fff;
+	background-color: #5C2975;
+	text-decoration: none;
+}
+
+#l_sidebar ul ul ul a:hover {
+	color: #fff;
+	background-color: #9E9BCC;
+	text-decoration: none;
+}	
+
+	
+
+#my-church a {
+	background: #ffffff;
+}	
+
+#l_sidebar .feedburner {
+	background:transparent url(/assets/templates/mtzion-family/img/css/rss.gif) no-repeat scroll 0pt 0pt;
+	display:block;
+	height:0pt;
+	margin:15px 0pt 0px 0px;
+	overflow:hidden;
+	padding:19px 0pt 0pt;
+	width:127px;
+}
+/************************************************
+*	Content      					     	    * 
+************************************************/
+
+#content {
+	width: 800px;
+	margin: 0 auto 0;
+	padding: 0;
+}
+
+#calendar-content {
+	width: 100%;
+	margin: 0 auto 0;
+	padding: 0;
+}
+
+#contentright {	
+	background: #FFF url(/assets/templates/mtzion-family/img/icons/hbg.gif) repeat-x ; 
+	color: #000;
+	float: right;
+	width: 630px;
+	margin: 0px;
+	padding: 0px 10px 20px 0px;
+}
+
+/************************************************
+*	Breadcrumbs	Snippet							*
+
+	Included classes
+    .B_crumbBox        Span that surrounds all crumb output
+    .B_hideCrumb       Span surrounding the "..." if there are more crumbs than will be shown
+    .B_currentCrumb    Span or A tag surrounding the current crumb
+    .B_firstCrumb      Span that always surrounds the first crumb, whether it is "home" or not
+    .B_lastCrumb       Span surrounding last crumb, whether it is the current page or not
+    .B_crumb           Class given to each A tag surrounding the intermediate crumbs (not home, or hide)
+    .B_homeCrumb       Class given to the home crumb
+************************************************/
+.B_crumbBox {
+	font-size: 10px;
+	padding: 10px 0 10px 0;
+}
+
+
+	
+/************************************************
+*	Search Form									*
+************************************************/
+#searchbox {
+	background: #9844C1;
+	margin: 0px 0px 5px 0px;
+	padding: 0px 10px 10px 10px;
+}
+
+#ajaxSearch_input {
+	width: 100px; 
+}
+#ajaxSearch_resultListContainer {
+	padding: 10px 0;
+}	
+
+.ajaxSearch_result {
+	
+}
+
+.ajaxSearch_resultLink {
+	display: compact;
+	margin: 5px 0;
+	width: inherit;
+}
+
+.ajaxSearch_resultsInfo {
+	
+}
+
+.ajaxSearch_resultDescription {
+	
+	
+}
+
+.AS_ajax_highlight {
+	background-color:#FFFFBB;
+	border:1px solid #DDDD33;
+	color:#000000;
+	margin:-3px;
+	padding:2px;
+}
+
+/************************************************
+*	Footer      								*
+************************************************/
+
+#footerbg {
+	background: #832EAC url(/assets/templates/mtzion-family/img/footer-bg.png) repeat-x;
+	height:226px;
+}
+	
+#footer {
+	background: #832EAC url(/assets/templates/mtzion-family/img/bottom_layer.jpg) no-repeat top;
+	color: #FFFFFF;
+	width: 847px;
+	margin: 0px auto 0px;
+	padding: 90px 0px 20px 0px;
+	text-align: center;
+}
+
+#footer p {
+	padding: 30px 0 0 0;
+	line-height: 20px;
+}	
+	
+#footer a, #footer a:visited{
+	color: yellow;
+	text-decoration: none;
+	border-bottom-style: dotted;
+	border-bottom-color: yellow;
+	border-bottom-width: thin;
+}
+	
+#footer a:hover{
+	border-bottom-style: solid;
+	background: #5C2975;
+	font-weight: bold;
+}
+
+
+/*-----------------------------------------------------------------------
+*  =CLEAR FIX
+*  the follow style addesses issues when applying floats to elements it 
+*  clears the area that certain elements are floated to 
+*------------------------------------------------------------------------*/
+
+.clearfix {
+    clear: both; 
+}
+		

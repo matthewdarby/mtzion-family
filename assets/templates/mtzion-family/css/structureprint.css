@@ -1,0 +1,31 @@
+/*
+	Author: Matt Darby						Email: matthew.darby@gmail.com
+	Date: 3/19/2008							Website: http://family.mtzionmb.org
+	Name: Mt. Zion Family Structure Print	Version: 1.0
+*/
+
+/*-----------------------------------------------------------------------
+*  =SITE STRUCTURE
+*  styles defined here are used to style content items for print such as 
+*  anchor, paragraph and other elements
+*------------------------------------------------------------------------*/
+
+body {
+	background: #FFF;
+	color:#000;
+ 	font-size:75%;
+	font-family: "Times New Roman", Times, serif;
+}
+
+wrap, #wrap-bg {background: none;}
+
+#headernavigation, #l_sidebar, .banner, #breadcrumbs, #google_map {display: none;}
+
+#header a, #footer a {
+	text-decoration: none;
+	color: #000;
+}
+
+#header p {
+	margin: 0;
+}

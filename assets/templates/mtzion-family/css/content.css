@@ -1,0 +1,355 @@
+/************************************************
+*	Hyperlinks									*
+************************************************/
+
+a {
+	color: #5C2975;
+	text-decoration: none;
+	border-bottom-style: dotted;
+	border-bottom-color: #5C2975;
+	border-bottom-width: thin;
+}
+
+a:hover {
+	background-color: #9E9BCC;
+	border-bottom-style: solid;
+	text-decoration: underline;
+}
+
+a:link, a:active {
+	font-weight: bold;
+}
+
+/************************************************
+*	Headers     								*
+************************************************/	
+
+h1, h2, h3, h4 {
+	padding: 5px 0px 5px 0px;
+	color: #58627F;	
+}
+
+h1 {
+	font-size: 2em;
+}
+	
+h2 {
+	font-size: 1.8em;
+	font-weight: normal;
+	padding: 20px 0px 2px 0px;
+	margin: 0px 0px 15px 0px;
+	border-bottom: 1px solid #C0C0C0;
+}
+	
+h2 a  {
+	color: #333333;
+	text-decoration: none;
+}
+
+h2 a:hover {
+	color: #0066CC;
+	text-decoration: none;
+}
+
+h3 {
+	color: #7E5861;
+	font-size: 1.6em;
+}
+
+h4 {
+	border-bottom: 1px solid #C0C0C0;
+	margin: 0 0 10px 0;
+	font-size: 1.4em;	
+}
+
+h5 {
+	font-size: 1.2em;
+}
+
+
+/************************************************
+*	Content     								*
+************************************************/
+p{
+	padding: 0px 0px 15px 0px;
+	margin: 0px;
+	line-height: 18px;
+}
+
+address {
+	font-style:normal;
+	padding: 5px 0;
+}
+
+blockquote {
+	font: 14px/22px normal helvetica, sans-serif;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 50px;
+	padding-left: 15px;
+	border-left: 3px solid #ccc;
+} 
+
+blockquote p{
+	margin: 0px 0px 10px 0px;
+	padding: 10px 0px 0px 0px;
+}
+
+/************************************************
+*	Lists        								*
+************************************************/
+
+ol{
+	margin: 0px 0px 0px 20px;
+	padding: 0px 0px 10px 0px;
+}
+	
+ol li{
+	margin: 0px 0px 0px 20px;
+	padding: 0px 0px 5px 0px;
+}
+	
+ul{
+	list-style-type: square;
+	margin: 0px 0px 0px 20px;
+	padding: 0px 0px 5px 0px;
+}
+	
+ul li{
+	list-style-type: square;
+	margin: 0px 0px 0px 20px;
+	padding: 0px 0px 5px 0px;
+}
+
+ul li ul {
+	padding: 0;
+}
+
+ul li ul li {
+	list-style-type: disc;
+	margin: 0px 0px 0px 20px;
+	padding: 5px 0px 5px 0px;
+}
+
+
+/************************************************
+*	Images    								*
+************************************************/	
+
+#google_map {
+	float: right;
+	background-color: #fff;
+	border: 1px solid #B6B295;
+	padding: 3px;	
+	margin: 0 0 7px 7px; 
+}
+
+.photo {
+	background-color: #fff;
+	border: 1px solid #B6B295;
+	padding: 3px;
+
+	}
+img.right {
+	margin-left: 7px;
+	margin-bottom: 7px;
+	float: right;
+	}
+img.left {
+	margin-right: 7px;
+	margin-bottom: 7px;
+	float: left;
+	}
+
+img.banner {
+	margin:15px 0 10px 0;
+}
+
+
+hr {
+	border: 0;
+	color: #000;
+	background-color: #000;
+	height: 2px;  
+}
+	
+
+/************************************************
+*	Misc        								*
+************************************************/		
+.postmeta {
+	width: 500px;
+	border-top: 1px solid #C0C0C0;
+	padding: 5px 0px 0px 0px;
+	margin: 0px 0px 50px 0px;
+}
+	
+.postmetaleft {
+	float: left;
+	width: 295px;
+	margin: 0px;
+	padding: 0px;
+}
+	
+.postmeta{
+	float: right;
+	width: 200px;
+	text-align: right;
+	margin: 0px;
+	padding: 0px;
+}
+	
+.center {
+	text-align: center;
+}
+
+.right {
+	text-align: right;
+}
+
+.justify {
+	text-align: justify;
+}
+
+.full-width {
+	width: 100%;
+}
+
+
+/************************************************
+*	Ministry    					     	    * 
+************************************************/
+#ministry_info {
+	float: left;
+	width: 65%;
+}
+#ministry_events {
+	float: right;
+	width: 25%;
+}
+
+#ministry_events p {
+	font-size: 11px;
+}
+
+#accordion {
+	margin: 10px 0 0 0;
+	border-top: 1px solid #7a9092;
+}
+
+#accordion h5 {
+	text-transform: uppercase;
+	color: #394344;
+	border-bottom: 1px solid #698083;
+	border-top: 1px solid #fff;
+	margin: 0;
+	padding: 3px 0 3px 8px;
+	background: #a8c3c5 url(/assets/templates/mtzion-family/img/css/min_menu_bars.gif) no-repeat right;
+}
+
+#accordion ul {
+	border-top: 2px solid #708d92;
+	border-bottom: 1px solid #708689;
+	padding: 5px 0 3px 8px;
+	margin: 0;
+	background: #88a0a4;
+	list-style-type: none;
+}
+
+#accordion ul li {
+	background: transparent url(/assets/templates/mtzion-family/img/css/min_menu_arrow.gif) no-repeat left;
+	padding: 0 0 0 20px;
+	list-style-type: none;
+}
+
+#accordion ul li a {
+	height: 23px;
+	line-height: 23px;
+	color: #fff;
+	text-decoration: none;
+	padding: 0 0 0 8px;
+	border: none;
+
+}
+
+#accordion ul li a:hover {
+	text-decoration: underline;
+	background: none;
+	border:  none;
+}
+
+#accordion ul li a strong {
+	color: #fff;
+}
+
+/************************************************
+*	Announcements								*
+************************************************/
+#news_item { 
+	background: #FFF; 
+	margin-bottom: 10px;  
+}
+
+#news_item h3 { 
+	background: #FFF url(/assets/templates/mtzion-family/img/icons/hbg.gif) repeat-x; 
+	height:30px; 
+	padding: 5px 0 0 0px;
+	margin: 0; 
+	font:  bold 1.2em Arial, Sans-Serif;
+	border: none;
+}
+
+#news_item h3 span { 
+	background: url(/assets/templates/mtzion-family/img/icons/h-art.gif) no-repeat left; 
+	padding: 1px 10px 0 23px;  
+	line-height: 22px;
+	margin: 0;
+}
+
+#news_item p { 
+	color: #454545;
+	padding: 5px 5px;
+	text-align: justify; 
+}
+#news_item img { 
+	padding: 0 10px 5px 0;
+}
+
+#news_item blockquote { 
+	padding-left: 10px;
+	border-left: 2px solid #DA4040;
+	margin: 10px 0 10px 25px; 
+}
+
+.date { 
+	border-top: 1px dotted #ccc;
+	padding: 5px 0;
+	margin: 10px 0 25px 0;
+	text-align: right;
+	font-size: .8em;
+}		
+
+#news_item .rs { 
+	float: right;
+	margin: 0 10px;
+	border: 1px solid #ddd;
+	padding: 5px;
+	background: #f5f5f5;
+}
+
+#news_item ul { 
+	list-style-position: inside;
+	margin-left: 2px;
+}
+
+#news_item ul li { 
+	list-style-type: square; 
+	margin-left: 15px;  
+}
+
+#news_item ul ul li { 
+	list-style: none; 
+	margin-left: 10px;
+	list-style-type: lower-alpha;
+	list-style-position: inside;
+}

@@ -1,0 +1,36 @@
+.goodsearch {
+	padding:5px 0;
+	text-align:center;
+	border:solid 1px #CCCCCC;
+	width:150px;
+	font-family:Arial,Helvetica;
+	font-size:12px;
+	color: #000;
+	margin-bottom: 10px;
+}
+
+.goodsearch a {
+	border: 0px;
+	text-decoration: none;
+}
+.goodsearch img {
+	margin-bottom:5px;
+	border:0px;
+	width: 140px;
+}
+
+.goodsearch label {
+	display:none;
+}
+
+
+#goodsearch_keywords_6 {
+	width:130px;
+	background-image:url('http://www.goodsearch.com/_gfx/yahoo_background.gif');
+	background-repeat:no-repeat;
+}
+
+#goodsearch_submit_6 {
+	font-family:Arial,Helvetica;
+	font-size:11px;
+}

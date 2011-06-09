@@ -1,0 +1,62 @@
+/*
+	Author: Matt Darby						Email: matthew.darby@gmail.com
+	Date: 3/19/2008							Website: http://family.mtzionmb.org
+	Name: Mt. Zion Family Content Print		Version: 1.0
+*/
+
+/*-----------------------------------------------------------------------
+*  =SITE STRUCTURE
+*  styles defined here are used to style content items for print such as 
+*  anchor, paragraph and other elements
+*------------------------------------------------------------------------*/
+
+/************************************************
+*	Anchors	
+************************************************/
+
+#content a:link, #content a:visited {
+	color: #520;
+	background: transparent;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+#content a:link:after, #content a:visited:after {
+   content: " (" attr(href) ") ";
+   font-size: 90%;
+ }
+
+#content a[href^="home"]:after, #content a[href^="/"]:after {
+   content: " (http://family.mtzionmb.org/" attr(href) ") ";
+ }
+
+/************************************************
+*	Headers								
+************************************************/
+
+h1 {
+	font-size: 2em;
+	margin: 0.1em 0;
+}
+
+h2 {
+	font-size: 1.6em;
+	margin: 1.1em 0;
+}
+
+h3 {
+	font-size: 1.4 em;
+	margin: 1.05em 0;
+}
+
+
+/************************************************
+*	Content							
+************************************************/
+blockquote, p, ol, ul {font-size: 1em;}
+
+
+/************************************************
+*	Announcements								
+************************************************/
+#news_item { border-top: 1px solid black; }
