@@ -3,7 +3,7 @@
  *	MODx Configuration file
  */
 $database_type = 'mysql';
-$database_server = 'mysql4.hostek.com';
+$database_server = 'localhost';
 $database_user = 'cmsuser';
 $database_password = 'mySite';
 $database_connection_charset = 'latin1';
